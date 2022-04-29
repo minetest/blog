@@ -14,4 +14,12 @@ layout: default
 	</p>
 
 	{{ content }}
+
+	{% if page.forum_topic %}
+		<div class="section has-text-centered">
+		<a href="{{ page.forum_topic }}" class="button is-primary is-large">
+			Discuss this on the forums
+		</a>
+		</div>
+	{% endif %}
 </main>

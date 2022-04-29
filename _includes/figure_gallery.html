@@ -1,3 +1,7 @@
-{% for item in include.items %}
-{% include figure.html value=item %}
-{% endfor %}
+<div class="columns is-multiline">
+	{% for item in include.items %}
+		<div class="column is-half">
+			{% include figure.html value=item %}
+		</div>
+	{% endfor %}
+</div>

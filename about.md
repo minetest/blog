@@ -22,7 +22,8 @@ have something great to share:
 
 1. Read the submission guidelines (below).
 
-2. Make an issue on the [GitHub issue tracker](https://github.com/minetestblog/minetestblog.github.io/issues) or alternatively, on the mirrored [GitLab issue tracker](https://gitlab.com/mistere123.coding/minetestblog.github.io/-/issues) if you can not use GitHub, that contains the info about your update.
+2. Make an issue on the
+   [GitHub issue tracker](https://github.com/minetest/blog/issues).
 
 If this is too hard for you, you can contact an editor on the forums to submit
 an update.

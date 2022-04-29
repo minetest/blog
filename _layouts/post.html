@@ -40,11 +40,33 @@ layout: default
 		</p>
 	{% endif %}
 
-	{% if page.forum_topic %}
-		<div class="section has-text-centered">
-		<a href="{{ page.forum_topic }}" class="button is-primary is-large">
-			Discuss this on the forums
-		</a>
+	<div class="section is-medium">
+		<div class="columns is-vcentered is-variable is-7">
+			{% if page.forum_topic %}
+				<div class="column has-text-right seperator-right">
+					<a href="{{ page.forum_topic }}" class="button is-primary is-large">
+						<i class="fas fa-comments mr-3"></i>
+						Discuss on the forums
+					</a>
+				</div>
+			{% endif %}
+			<div class="column">
+				<p class="mb-1">Share:</p>
+				<p class="my-0">
+					<a class="button is-small" href="https://twitter.com/intent/tweet/?text={{ page.title | url_escape }}%20{{ page.url | absolute_url | url_escape }}">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a class="button is-small" href="https://facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_escape}}">
+						<i class="fab fa-facebook"></i>
+					</a>
+					<a class="button is-small" href="https://reddit.com/submit/?url={{ page.url | absolute_url | url_escape }}">
+						<i class="fab fa-reddit"></i>
+					</a>
+					<a class="button is-small" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title={{ page.title | url_escape }}&amp;caption={{ page.title | url_escape }}&amp;content={{ page.url | absolute_url | url_escape }}&amp;canonicalUrl={{ page.url | absolute_url | url_escape }}&amp;shareSource=tumblr_share_button">
+						<i class="fab fa-tumblr"></i>
+					</a>
+				</p>
+			</div>
 		</div>
-	{% endif %}
+	</div>
 </main>

@@ -1,0 +1,36 @@
+
+<nav class="navbar is-primary">
+	<div class="container">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/">
+				{{ site.name }}
+			</a>
+			<a role="button" class="navbar-burger" aria-label="menu"
+				aria-expanded="false" data-target="nav-menu">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+
+		<div id="nav-menu" class="navbar-menu">
+			<div class="navbar-start">
+				{% for item in site.data.navbar %}
+					<a class="navbar-item {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">
+						{{ item.title }}
+					</a>
+				{% endfor %}
+			</div>
+
+			<div class="navbar-end">
+				{% for item in site.data.social %}
+					<a class="navbar-item" href="{{ item.url }}" title="{{ item.title }}">
+						<span>
+							<i class="{{ item.icon }}"></i>
+						</span>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</nav>

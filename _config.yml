@@ -1,0 +1,20 @@
+name: Minetest Blog
+description: Minetest's official blog - see what's new in Minetest!
+author: Minetest
+permalink: pretty
+url: https://blog.minetest.net
+
+exclude:
+  - vendor
+
+excerpt_separator: <!-- more -->
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+collections:
+  my_tags:
+    output: true
+    permalink: /tags/:slug/

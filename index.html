@@ -1,0 +1,20 @@
+---
+title: Minetest Blog
+layout: default
+---
+
+<header class="hero">
+	<div class="hero-body">
+		<div class="container">
+			<h1 class="title is-1">{{ site.name }}</h1>
+			<p>
+				{{ site.description }}
+			</p>
+		</div>
+	</div>
+</header>
+
+
+<main class="container my-5">
+	{% include post_list.html posts=site.posts %}
+</main>

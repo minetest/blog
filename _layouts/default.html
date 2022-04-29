@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		{{ page.title }}
+		{% if page.title != site.name %}
+			- {{ site.name }}
+		{% endif %}
+	</title>
+
+	<link rel="stylesheet" href="/static/style.css?v=1">
+	<link rel="stylesheet" href="/static/css/all.min.css">
+
+
+	<meta name="og:title" content="{{ page.title }}" />
+	<meta name="og:url" content="{{ page.url | absolute_url }}" />
+
+	{% if page.description %}
+		<meta name="og:description" content="{{ page.description }}" />
+		<meta name="description" content="{{ page.description }}" />
+	{% endif %}
+
+	{% if page.image %}
+		<meta name="og:image" content="{{ page.image | absolute_url }}" />
+	{% endif %}
+</head>
+<body>
+	{% include navbar.html %}
+	{{ content }}
+
+	<script async src="/static/navbar.js"></script>
+
+	<footer class="footer">
+		<div class="content has-text-centered has-text-grey">
+			<p>
+				Minetest Blog &copy; contributors.
+				The <a href="https://github.com/minetest/blog">source code</a>
+				is licensed under
+				<a href="https://opensource.org/licenses/MIT">MIT</a>.
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,7 +1,15 @@
+- title: Forums
+  icon: fas fa-comments
+  url: https://forum.minetest.net
+
 - title: Twitter
   icon: fab fa-twitter
   url: https://twitter.com/MinetestProject
 
-- title: Forums
-  icon: fas fa-chat
-  url: https://forum.minetest.net
+- title: Mastodon
+  icon: fab fa-mastodon
+  url: https://fosstodon.com/@Minetest
+
+- title: RSS
+  icon: fas fa-rss
+  url: /feed.xml

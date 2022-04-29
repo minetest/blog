@@ -38,3 +38,27 @@
 		}
 	}
 }
+
+.hero {
+	position: relative;
+
+	.hero-image {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		filter: brightness(0.8);
+	}
+
+	&.hero-shadow {
+		.title, .subtitle {
+			text-shadow: 3px 3px 3px rgba(10,10,10,0.2);
+		}
+	}
+}

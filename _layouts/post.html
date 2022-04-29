@@ -2,18 +2,43 @@
 layout: default
 ---
 
-<main class="container content my-5">
-	<h1>{{ page.title }}</h1>
-	<p>
-		{% for tagname in page.tags %}
-			{% assign tag = site.my_tags | where: "slug", tagname | first %}
-			<a class="tag is-primary" href="{{ tag.url }}">
-				{{ tag.title }}
-			</a>
-		{% endfor %}
-	</p>
+<header class="hero hero-shadow is-medium is-primary">
+	<div class="hero-image" style="background-image: url('{{ page.image }}');"></div>
+	<div class="hero-body">
+		<div class="container">
+			<h1 class="title">{{ page.title }}</h1>
+			<p class="subtitle">
+				By
+				{% assign author = site.data.authors[page.author] %}
+				{% if author %}
+					<a href="{{ author.url }}">
+						{{ page.author }}
+					</a>
+				{% else %}
+					{{ page.author }}
+				{% endif %}
+			</p>
+			<p>
+				{% for tagname in page.tags %}
+					{% assign tag = site.my_tags | where: "slug", tagname | first %}
+					<a class="tag is-primary" href="{{ tag.url }}">
+						{{ tag.title }}
+					</a>
+				{% endfor %}
+			</p>
+		</div>
+	</div>
+</header>
 
+<main class="container content my-5">
 	{{ content }}
+
+	{% if page.contributors %}
+		<p>
+			Thanks to our post contributors this month:
+			{{ page.contributors | join: ", " }}.
+		</p>
+	{% endif %}
 
 	{% if page.forum_topic %}
 		<div class="section has-text-centered">

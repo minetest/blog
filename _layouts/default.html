@@ -26,6 +26,10 @@
 	{% if page.image %}
 		<meta name="og:image" content="{{ page.image | absolute_url }}" />
 	{% endif %}
+
+
+	<link rel="alternate" type="application/rss+xml" href="{{ '/feed.rss' | absolute_url}}" title="{{ site.name | xml_escape }}" />
+	<link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | absolute_url}}" title="{{ site.name | xml_escape }}" />
 </head>
 <body>
 	{% include navbar.html %}

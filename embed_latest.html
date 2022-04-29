@@ -18,6 +18,29 @@ layout: none
 </head>
 <body class="p-4">
 	{% assign post = site.posts[0] %}
-	{% include post_card.html post=post %}
+
+	<a href="{{ post.url }}">
+		<div class="card is-horizontal" >
+			{% if post.image %}
+				<div class="card-image" href="{{ post.url }}">
+					<figure class="image">
+						<img src="{{ post.image }}" alt="Post image">
+					</figure>
+				</div>
+			{% endif %}
+			<div class="card-content">
+				<span class="is-pulled-right" href="{{ post.url }}">
+					{{ post.date | date_to_string }}
+				</span>
+				<h2 class="title is-4">
+					{{ post.title }}
+				</h2>
+				<div class="content">
+					{{ post.excerpt }}
+				</div>
+			</div>
+		</div>
+	</a>
+
 </body>
 </html>

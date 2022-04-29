@@ -1,0 +1,23 @@
+---
+title: Embed
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		{{ site.name }}
+	</title>
+
+	<link rel="stylesheet" href="/static/style.css?v=1">
+	<link rel="stylesheet" href="/static/css/all.min.css">
+	<base target="_parent">
+</head>
+<body class="p-4">
+	{% assign post = site.posts[0] %}
+	{% include post_card.html post=post %}
+</body>
+</html>

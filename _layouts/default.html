@@ -14,17 +14,26 @@
 	<link rel="stylesheet" href="/static/style.css?v=2">
 	<link rel="stylesheet" href="/static/css/all.min.css">
 
+	<link rel="icon" href="/static/minetesticon.png">
 
 	<meta name="og:title" content="{{ page.title }}" />
 	<meta name="og:url" content="{{ page.url | absolute_url }}" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{{ title }}" />
 
 	{% if page.description %}
-		<meta name="og:description" content="{{ page.description }}" />
 		<meta name="description" content="{{ page.description }}" />
+		<meta name="og:description" content="{{ page.description }}" />
+		<meta name="twitter:description" content="{{ page.description }}" />
 	{% endif %}
 
 	{% if page.image %}
 		<meta name="og:image" content="{{ page.image | absolute_url }}" />
+		<meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+	{% endif %}
+
+	{% if page.tags %}
+		<meta name="keywords" content="{{ page.tags | join: ', ' }}" />
 	{% endif %}
 
 	<link rel="alternate" type="application/atom+xml"

@@ -30,15 +30,17 @@ layout: default
 	</div>
 </header>
 
-<main class="container content my-5">
-	{{ content }}
+<main class="container my-6">
+	<article class="content">
+		{{ content }}
 
-	{% if page.contributors %}
-		<p>
-			Thanks to our post contributors this month:
-			{{ page.contributors | join: ", " }}.
-		</p>
-	{% endif %}
+		{% if page.contributors %}
+			<p>
+				Thanks to our post contributors this month:
+				{{ page.contributors | join: ", " }}.
+			</p>
+		{% endif %}
+	</article>
 
 	<div class="section is-medium">
 		<div class="columns is-vcentered is-variable is-7">
@@ -64,6 +66,9 @@ layout: default
 					</a>
 					<a class="button is-small" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title={{ page.title | url_escape }}&amp;caption={{ page.title | url_escape }}&amp;content={{ page.url | absolute_url | url_escape }}&amp;canonicalUrl={{ page.url | absolute_url | url_escape }}&amp;shareSource=tumblr_share_button">
 						<i class="fab fa-tumblr"></i>
+					</a>
+					<a class="button is-small" href="mailto:?subject={{ page.title | url_escape }}&amp;body={{ page.url | absolute_url | url_escape }}">
+						<i class="fas fa-envelope"></i>
 					</a>
 				</p>
 			</div>

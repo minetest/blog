@@ -1,9 +1,39 @@
 @import "bulma";
 
+article {
+	line-height: 1.6;
+	font-size: 20px;
+
+	h1, h2, h3, h4, h5, h6 {
+		line-height: 1.1;
+	}
+
+	p {
+		margin-top: 0;
+		margin-bottom: 1.5rem;
+		word-wrap: break-word;
+	}
+}
+
 .posts {
 	display: flex;
 	flex-direction: column;
-	gap: 2em;
+	gap: 6em;
+}
+
+.post {
+	position: relative;
+	padding-bottom: 1rem;
+
+	.readmore {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+
+		padding-top: 3rem;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
 }
 
 

@@ -9,9 +9,11 @@
 				</a>
 			{% endif %}
 			<div class="content">
-				<a class="is-pulled-right" href="{{ post.url }}">
-					{{ post.date | date_to_string }}
-				</a>
+				<time class="is-pulled-right" itemprop="dateCreated" datetime="2022-03-24">
+					<a href="{{ post.url }}">
+						{{ post.date | date_to_string }}
+					</a>
+				</time>
 				<h2 class="title is-4">
 					<a href="{{ post.url }}">
 						{{ post.title }}

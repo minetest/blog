@@ -25,6 +25,10 @@ article {
 	position: relative;
 	padding-bottom: 1rem;
 
+	time {
+		line-height: 1.125;
+	}
+
 	.readmore {
 		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
 

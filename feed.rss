@@ -19,7 +19,16 @@ sitemap:
 			<description>{{ post.content | xml_escape }}</description>
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 			<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-			<guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+			<guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+			{% if post.image %}
+				{% assign parts = post.image | split: "." %}
+				{% assign image_ext = parts[-1] %}
+				{% if image_ext == "png" %}
+					<enclosure type="image/png" url="{{ post.image | absolute_url }}" />
+				{% elsif image_ext == "jpg" %}
+					<enclosure type="image/jpeg" url="{{ post.image | absolute_url }}" />
+				{% endif %}
+			{% endif %}
 			{% for tagname in post.tags %}
 				{% assign tag = site.my_tags | where: "slug", tagname | first %}
 				<category>{{ tag.title | xml_escape }}</category>

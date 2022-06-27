@@ -2,10 +2,6 @@
 <nav class="navbar is-primary">
 	<div class="container">
 		<div class="navbar-brand">
-			<a class="navbar-item" href="https://www.minetest.net/">
-				<i class="fas fa-caret-left mr-2"></i>
-				<img src="https://www.minetest.net/media/icon.svg" />
-			</a>
 			<a class="navbar-item" href="/">
 				{{ site.name }}
 			</a>
@@ -29,9 +25,14 @@
 			<div class="navbar-end">
 				{% for item in site.data.social %}
 					<a class="navbar-item" href="{{ item.url }}" title="{{ item.title }}">
-						<span>
-							<i class="{{ item.icon }}"></i>
-						</span>
+						{% assign first = item.icon | slice: 0 %}
+						{% if first == "/" %}
+							<img src="{{ item.icon }}" alt="{{ item.title }}" class="" />
+						{% else %}
+							<span>
+								<i class="{{ item.icon }}"></i>
+							</span>
+						{% endif %}
 					</a>
 				{% endfor %}
 			</div>

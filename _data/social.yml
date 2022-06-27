@@ -1,3 +1,7 @@
+- title: Minetest
+  icon: fas fa-home
+  url: https://www.minetest.net
+
 - title: Forums
   icon: fas fa-comments
   url: https://forum.minetest.net

@@ -27,6 +27,8 @@ sitemap:
 					<enclosure type="image/png" url="{{ post.image | absolute_url }}" />
 				{% elsif image_ext == "jpg" %}
 					<enclosure type="image/jpeg" url="{{ post.image | absolute_url }}" />
+				{% elsif image_ext == "webp" %}
+					<enclosure type="image/webp" url="{{ post.image | absolute_url }}" />
 				{% endif %}
 			{% endif %}
 			{% for tagname in post.tags %}

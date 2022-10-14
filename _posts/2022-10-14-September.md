@@ -13,7 +13,7 @@ description: >
   This month, TurkeyMcMac joined the core dev team, post-processing and bloom were
   merged, and Android crosshair support was added. Minefall released on ContentDB,
   BlockExchange got a graphical rework, and more!
-image: /static/blog/2022_September/castleprop.png
+image: /static/blog/2022_September/castleprop.jpg
 forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=28773
 tags:
   - this_month
@@ -42,7 +42,8 @@ BlockExchange got a graphical rework, and more!
 
 ## Engine News
 
-TurkeyMcMac was added as a core developer this month. He has been contributing
+TurkeyMcMac was added as a core developer this month. He has been
+[contributing](https://github.com/minetest/minetest/commits/?author=TurkeyMcMac)
 to Minetest for a while and has demonstrated a high level of technical ability.
 
 x2048's post-processing Pull Request was merged, as well as a work-in-progress
@@ -145,7 +146,7 @@ inspired by FVDisco's oCd Minecraft resource pack.
 
 {% include figure_gallery.html items=page.wsortrains %}
 
-{% include figure.html src="/static/blog/2022_September/castleprop.png"
+{% include figure.html src="/static/blog/2022_September/castleprop.jpg"
     caption="One of x2048's props for testing lighting effects" %}
 
 ## Server News

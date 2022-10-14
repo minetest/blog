@@ -10,11 +10,11 @@ contributors:
   - wsor
   - x2048
 description: >
-  This month, jwmhjwmh joined the core dev team, post-processing and bloom were
+  This month, TurkeyMcMac joined the core dev team, post-processing and bloom were
   merged, and Android crosshair support was added. Minefall released on ContentDB,
   BlockExchange got a graphical rework, and more!
-image: /static/blog/2022_September/temple_peppermint_patty.png
-# forum_topic:
+image: /static/blog/2022_September/castleprop.png
+forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=28773
 tags:
   - this_month
 wsortrains:

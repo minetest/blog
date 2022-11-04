@@ -39,6 +39,49 @@ layout: default
 
 <main class="container my-6">
 	<article class="content">
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BlogPosting",
+				"headline": {{ page.title | jsonify }},
+				"image": {{ cover_image | absolute_url | jsonify }},
+				"wordcount": {{ page.content | number_of_words | jsonify }},
+				"url": {{ page.url | absolute_url | jsonify }},
+				"datePublished": {{ page.date | date: "%F" | jsonify }},
+				"dateCreated": {{ page.date | date: "%F" | jsonify }},
+				"description": {{ page.description | jsonify }},
+				"articleBody": {{ content | jsonify }},
+				"inLanguage": "en",
+				"mainEntityOfPage": "True",
+				{% if page.author %}
+					"author": {
+						"@type": "Person",
+						"name": {{ page.author | jsonify }},
+						"url": {{ author.url | jsonify }}
+					},
+				{% else %}
+					"author": {
+						"@type": "Organization",
+						"name": "Minetest",
+						"url": "https://www.minetest.net",
+						"logo": {
+							"@type": "ImageObject",
+							"url": "https://www.minetest.net/media/icon.svg"
+						}
+					},
+				{% endif %}
+				"publisher": {
+					"@type": "Organization",
+					"name": "Minetest",
+					"url": "https://www.minetest.net",
+					"logo": {
+						"@type": "ImageObject",
+						"url": "https://www.minetest.net/media/icon.svg"
+					}
+				}
+			}
+		</script>
+
 		{{ content }}
 
 		{% if page.contributors %}

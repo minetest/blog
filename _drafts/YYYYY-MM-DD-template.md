@@ -5,7 +5,7 @@ description: >
   Mapgen Work, Main Menu Redesign
 image: /static/blog/2022_March/Sunrays.png
 tags:
-  - this_month
+  - last_month
 ---
 
 Write a paragraph summarising this update.

@@ -16,7 +16,7 @@ description: >
 image: /static/blog/2022_September/castleprop.jpg
 forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=28773
 tags:
-  - this_month
+  - last_month
 wsortrains:
   - src: /static/blog/2022_September/trains1.png
     caption: a pair of sw1500's tie down at the station as the morning sun rises, by Wsor

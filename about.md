@@ -48,7 +48,7 @@ and more.
 
 If you have something great to share:
 
-1. Read the [submission guidelines](https://github.com/minetest/blog/blob/master/_github/CONTRIBUTING.md).
+1. Read the [submission guidelines](https://github.com/minetest/blog/blob/master/.github/CONTRIBUTING.md).
 
 2. Make an issue on the
    [GitHub issue tracker](https://github.com/minetest/blog/issues).

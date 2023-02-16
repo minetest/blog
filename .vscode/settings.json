@@ -5,6 +5,11 @@
 			"language": "markdown",
 			"scheme": "file",
 			"pattern": "_posts/2022-11-04-November.md"
+		},
+		{
+			"language": "markdown",
+			"scheme": "vscode-vfs",
+			"pattern": "_posts/2023-02-16-January.md"
 		}
 	]
 }

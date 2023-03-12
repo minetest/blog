@@ -1,0 +1,73 @@
+name: Blog Content Submission
+description: Add content to the Minetest Blog
+title: "[Content]: Your Title Here"
+labels: ["Submission"]
+assignees:
+  - MisterE
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the Minetest Blog! Please read our [submission guidelines](https://github.com/minetest/blog/blob/master/.github/CONTRIBUTING.md)
+
+        Next, choose the category for the content you want to submit. 
+        Here is what we expect in the content submission for each category. 
+        Drag/drop screenshots into the text area to upload them.
+
+        - Cover Image
+          - Just a high-quality screenshot that shows minetest at its best, to be displayed as the cover image for the post.
+        - Engine News
+          - Any news regarding the C++ engine code and possible contributions to it.
+          - Include screenshot if applicable.
+        - Games News
+          - News for games made with minetest. Only new games or nontrivial updates, please, don't flood.
+          - Include screenshot(s) if applicable.
+        - Mods News
+          - News for mods. Only new mods or nontrivial updates, please, don't flood.
+          - Include screenshot(s) if applicable.
+        - Art/builds
+          - Submit a high-quality screenshot and a caption. The caption should ideally be artisitc.
+        - Education
+          - News about minetest being used as an educational tool.
+          - Include screenshot(s) if applicable.
+        - Server News
+          - Major server updates, changes, or upcoming events.
+          - Include screenshot(s) if applicable.
+        - In Other News
+          - Other Minetest-related news that does not fit into other categories.
+
+        Screenshots should be high-resolution and usually should have HUD and chat disabled unless the image is showcasing the HUD or chat.
+    - type: dropdown
+    id: section
+    attributes:
+      label: Blog Section
+      description: Where in the blog does this content fit?
+      options:
+        - Cover Image
+        - Engine News
+        - Games News
+        - Mods News
+        - Art/builds
+        - Education
+        - Server News
+        - In Other News
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Please enter your content.
+      description: If this is a news/info submission, use informative and concise prose. If this is an art/screenshot submission, include a caption. Drag and Drop screenshots into this box.
+      placeholder: Your Content Here
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: extra_info
+    attributes:
+      label: Add relavant details
+      description: If this is a news/info submission, include links to content and author pages. If this is an art/screenshot submission, include details such as the author of the build and of the screenshot. You may also include what server the screenshot is from and coordinates for in-person viewing, if applicable.
+      placeholder: Links etc
+      value: ""
+    validations:
+      required: false

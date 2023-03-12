@@ -11,6 +11,7 @@ body:
         Thank you for contributing to the Minetest Blog! Please read our [submission guidelines](https://github.com/minetest/blog/blob/master/.github/CONTRIBUTING.md)
 
         Next, choose the category for the content you want to submit.
+        
         <details>
           <summary>Here is what we expect in the content submission for each category. (click to expand)</summary> 
 
@@ -37,9 +38,11 @@ body:
           - Other Minetest-related news that does not fit into other categories.
 
         Screenshots should be high-resolution and usually should have HUD and chat disabled unless the image is showcasing the HUD or chat.
+
         </details>
         
         Drag and drop screenshots into the text box to upload them.
+
   - type: dropdown
     id: section
     attributes:

@@ -10,6 +10,11 @@
 			"language": "markdown",
 			"scheme": "vscode-vfs",
 			"pattern": "_posts/2023-02-16-January.md"
+		},
+		{
+			"language": "markdown",
+			"scheme": "file",
+			"pattern": "_posts/2023-03-12-February.md"
 		}
 	]
 }

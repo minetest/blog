@@ -59,7 +59,6 @@ body:
       label: Please enter your content.
       description: If this is a news/info submission, use informative and concise prose. If this is an art/screenshot submission, include a caption. Drag and Drop screenshots into this box.
       placeholder: Your Content Here
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -68,6 +67,5 @@ body:
       label: Add relavant details
       description: If this is a news/info submission, include links to content and author pages. If this is an art/screenshot submission, include details such as the author of the build and of the screenshot. You may also include what server the screenshot is from and coordinates for in-person viewing, if applicable.
       placeholder: Links etc
-      value: ""
     validations:
       required: false

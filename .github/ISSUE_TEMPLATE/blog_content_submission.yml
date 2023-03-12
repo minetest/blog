@@ -3,7 +3,7 @@ description: Add content to the Minetest Blog
 title: "[Content]: Your Title Here"
 labels: ["Submission"]
 assignees:
-  - MisterE
+  - MisterE123
 body:
   - type: markdown
     attributes:
@@ -37,7 +37,7 @@ body:
           - Other Minetest-related news that does not fit into other categories.
 
         Screenshots should be high-resolution and usually should have HUD and chat disabled unless the image is showcasing the HUD or chat.
-    - type: dropdown
+  - type: dropdown
     id: section
     attributes:
       label: Blog Section

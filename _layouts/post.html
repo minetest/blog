@@ -4,7 +4,7 @@ layout: default
 
 {% assign cover_image = page.image %}
 {% if page.image_has_full %}
-	{% assign cover_image = cover_image | replace: ".", "_full." %}
+	{% assign cover_image = cover_image | replace: ".jpg", "_full.jpg" | replace: ".png", "_full.png" %}
 {% endif %}
 
 <header class="hero hero-shadow is-medium is-primary">

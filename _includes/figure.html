@@ -4,9 +4,10 @@
 	{% assign link_url = link_url | replace: ".", "_full." %}
 {% endif %}
 {% assign caption = include.caption | default: include.value.caption %}
-<figure class="figure image">
+{% assign alt = include.alt | default: include.value.alt | default: caption %}
+<figure class="figure image {{include.class }}">
 	<a href="{{ link_url }}">
-		<img src="{{ img_url }}" alt="{{ caption }}">
+		<img src="{{ img_url }}" alt="{{ alt }}">
 	</a>
 	<figcaption>
 		{{ caption }}

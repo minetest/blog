@@ -88,6 +88,9 @@ layout: default
 			<p class="mt-6">
 				Thanks to our post contributors this month:
 				{{ page.contributors | join: ", " }}.
+				{% if page.image_credit %}
+					Cover image by {{ page.image_credit }}.
+				{% endif %}
 			</p>
 		{% endif %}
 	</article>

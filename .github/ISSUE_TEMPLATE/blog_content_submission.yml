@@ -70,7 +70,7 @@ body:
   - type: textarea
     id: extra_info
     attributes:
-      label: Add relavant details
+      label: Add relevant details
       description: If this is a news/info submission, include links to content and author pages. If this is an art/screenshot submission, include details such as the author of the build and of the screenshot. You may also include what server the screenshot is from and coordinates for in-person viewing, if applicable.
       placeholder: Links etc
     validations:

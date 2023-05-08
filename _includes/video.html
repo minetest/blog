@@ -1,6 +1,6 @@
 <figure>
 	<video width="853" height="480" controls>
-		<source src="{{ include.src }}" type="{{ include.format }}">
+		<source src="{{ include.src }}" type="{{ include.format | default: 'video/mp4' }}">
 		Your browser does not support the video tag.
 	</video>
 	{% if include.caption %}

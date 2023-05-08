@@ -1,9 +1,21 @@
 ---
 title: About
+description: About the Minetest blog
 layout: page
 ---
 
-# Welcome to the Minetest Blog!
+# About
+
+## What is Minetest?
+
+[Minetest](https://www.minetest.net) is an open source voxel game engine. See
+the website for more information.
+
+<a href="https://www.minetest.net/" class="button is-primary">
+	Minetest Website
+</a>
+
+## What is the Minetest blog?
 
 We post updates about once per month (subject to change) to let you know what's
 new with Minetest. We cover everything about Minetest, from engine development,
@@ -14,7 +26,7 @@ topic.
 We can also do special posts about important events or updates important to the
 general Minetest community.
 
-## Who?
+## Who is behind the Minetest Blog?
 
 <div class="columns">
 	{% for pair in site.data.authors %}

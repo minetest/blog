@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 		{{ page.title }}
-		{% if page.title != site.name %}
-			- {{ site.name }}
-		{% endif %}
+		{% unless page.title_append == false %}- {{ site.name }}{% endunless %}
 	</title>
 
 	<link rel="stylesheet" href="/static/style.css?v=5">
@@ -18,23 +15,19 @@
 
 	<meta name="og:title" content="{{ page.title }}" />
 	<meta name="og:url" content="{{ page.url | absolute_url }}" />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="{{ title }}" />
-
+	<meta name="og:site_name" content="Minetest Blog">
 	{% if page.description %}
-		<meta name="description" content="{{ page.description }}" />
-		<meta name="og:description" content="{{ page.description }}" />
-		<meta name="twitter:description" content="{{ page.description }}" />
+		<meta name="og:description" content="{{ page.description | escape | strip }}">
+		<meta name="description" content="{{ page.description | escape | strip }}">
 	{% endif %}
-
 	{% if page.image %}
 		<meta name="og:image" content="{{ page.image | absolute_url }}" />
 		<meta name="twitter:image" content="{{ page.image | absolute_url }}" />
 	{% endif %}
-
-	{% if page.tags %}
-		<meta name="keywords" content="{{ page.tags | join: ', ' }}" />
+	{% if page.noindex %}
+		<meta name="robots" content="noindex">
 	{% endif %}
+
 
 	<!-- <link rel="alternate" type="application/atom+xml"
 		href="{{ '/feed.xml' | absolute_url}}" title="{{ site.name | xml_escape }}" /> -->

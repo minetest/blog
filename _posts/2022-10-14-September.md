@@ -120,10 +120,8 @@ a bullet train that has color-coded line numbers displayed on its side.
 ### TNT Tag
 
 [debiankaios](https://content.minetest.net/users/debiankaios/) released
-[TNTtag](https://content.minetest.net/packages/debiankaios/tnttag/), a port of
-the classic Minecraft minigame. Don't get tagged with TNT, and if you do get
-tagged, be sure to tag someone else before the time runs out and the TNT on your
-head explodes!
+[TNTtag](https://content.minetest.net/packages/debiankaios/tnttag/). Don't get tagged with TNT, and if you do get tagged, be sure to tag someone else before
+the time runs out and the TNT on your head explodes!
 
 ## Textures
 

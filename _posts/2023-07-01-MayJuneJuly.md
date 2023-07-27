@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "May and June - Last Two Months in Minetest (14)"
+title: "May, June, and July - Early Summer in Minetest (14)"
 contributors:
   - MisterE
   - Rubenwardy
@@ -10,7 +10,9 @@ contributors:
   - CodeScratcher
   - GreenXenith
 description: >
-  Desc Here
+  Work on the 5.8 release continues with some exciting new engine improvements. An
+  old classic game makes its way onto Content Database, and Lemente shares about
+  the use of Minetest in education.
 #forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=29501
 tags:
   - last_month
@@ -22,7 +24,9 @@ asuna:
   caption: Cursed Lands Under
 ---
 
-Desc Here
+Work on the 5.8 release continues with some exciting new engine improvements. An
+old classic game makes its way onto Content Database, and Lemente shares about
+the use of Minetest in education.
 
 <!-- more -->
 
@@ -36,6 +40,23 @@ Desc Here
 - [In Other News](#in-other-news)
 
 ## Engine News
+
+Several improvements have been in the works for the 5.8 release. For
+touchscreens, it will be possible to place nodes with a single tap. New texture
+modifiers were added, allowing modders to adjust or colorize textures using hue,
+saturation and lightness, adjust contrast, create textures of arbitrary size,
+and more.
+
+A really important step towards a better user interface was taken, with
+Rubenwardy's settings page redesign being merged.
+
+{% include figure.html src="/static/blog/2023_MayJune/settings.png" caption="The new settings menu" %}
+
+Another major improvment is Desour's sound refactor which fixes several bugs,
+including loading large sound files causing lag, and also adds new features such
+as fade-in for positional audio.
+
+Finally, x2048 added antialiasing post-processing filters for smoother graphics.
 
 ## Games News
 
@@ -61,8 +82,7 @@ development.
 
 ### BlockColor
 
-{% include figure.html src="/static/blog/2023_MayJune/blockcolor.png"
-    caption="Blocks and colors" %}
+{% include figure.html src="/static/blog/2023_MayJune/blockcolor.png" caption="Blocks and colors" %}
 
 In an effort to preserve an old, interesting game project, the
 [mt-historical](https://github.com/mt-historical) organization has added
@@ -71,13 +91,19 @@ MrChiantos](https://content.minetest.net/packages/mt-mods/blockcolor/) to
 ContentDB. The name says it all: It's a world of blocks painted with a soothing
 palette of colors.
 
+### Mineclone 2
+
+The latest [Mineclone](https://content.minetest.net/packages/Wuzzy/mineclone2/) update, titled "The Very Nice Release", went live last
+month. It was mostly a quality-of-life update, with bugfixes, performance,
+texture and sound improvements.
+
+{% include youtube.html id="5aHym2jUB1M" %}
 
 ## Mods News
 
 ### Mail
 
-{% include figure.html src="/static/blog/2023_MayJune/mailmod.png" caption="New
-    Mail Features" %}
+{% include figure.html src="/static/blog/2023_MayJune/mailmod.png" caption="New Mail Features" %}
 
 Many servers rely on the [Mail
 mod](https://content.minetest.net/packages/mt-mods/mail/) for in-game
@@ -169,3 +195,7 @@ On June 14, 2023, Open Survival had a total reset. To remedy increasing
 management complexity and provide a new experience for long-time players, the
 Open Survival team removed several mods and completely reset the world and the
 players.
+
+## In Other News
+
+Better late than never, right?

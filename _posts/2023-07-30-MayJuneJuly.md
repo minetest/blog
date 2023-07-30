@@ -23,8 +23,8 @@ asuna:
   caption: Cursed Lands Under
 ---
 
-Work on the 5.8 release continues with some exciting new engine improvements, a classic game makes its way to
-ContentDB, and the use of Minetest in education was explored.
+Work on the 5.8 release continues with some exciting new engine improvements, a classic game makes its way to ContentDB,
+and the use of Minetest in education was explored.
 
 <!-- more -->
 
@@ -146,14 +146,15 @@ mute colors or create a black-and-white effect.
 
 {% include figure.html src="/static/blog/2023_MayJune/bamboocave.png" caption='"Bamboo Cave with Pool" by Heather' %}
 
-{% include figure.html src="/static/blog/2023_MayJune/carved_land.png" caption='"Carved Landscape" by Lemente' %}
+{% include figure.html src="/static/blog/2023_MayJune/carved_land.png" caption='"Carved Landscape from Mapgen with
+Rivers" by Lemente' %}
 
 ## Education
 
 ### Minestory
 
-{% include figure.html src="/static/blog/2023_MayJune/minestory.png" caption="Students recreating the Lascaux cave in
-    Minetest during Minestory" %}
+{% include figure.html src="/static/blog/2023_MayJune/minestory.png" caption="Students creating Lascaux-inspired cave
+    paintings in Minetest during Minestory" %}
 
 Every year, hundreds of students from schools across France participate in
 [Minestory](http://minetest.wp.ac-dijon.fr/minestory-frise-immersive-de-sites-du-patrimoine-architectural/), an event

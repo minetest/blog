@@ -109,7 +109,7 @@ page.
 Most recently, the [1.2.0 release](https://github.com/mt-mods/mail/releases/tag/1.2.0) has brought settings, a trash
 system, major performance improvements, and bug fixes.
 
-Contributors to the mail mod include S-S-X, BuckarooBanzay, fluxionary, and the YourLand server.
+Contributors to the mail mod include Athozus, S-S-X, BuckarooBanzay, fluxionary, and the YourLand server.
 
 ### Plushie Invasion
 

@@ -33,7 +33,6 @@ and the use of Minetest in education was explored.
 - [Mods News](#mods-news)
 - [Art and Builds](#art-and-builds)
 - [Education](#education)
-- [In Other News](#in-other-news)
 - [Server News](#server-news)
 - [In Other News](#in-other-news)
 

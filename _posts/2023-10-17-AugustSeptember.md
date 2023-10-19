@@ -5,6 +5,7 @@ contributors:
   - 56independent
   - erlehmann
   - GreenXenith
+  - Niklp
   - rubenwardy
 authors:
   - GreenXenith
@@ -35,6 +36,9 @@ gallery_unicodetext:
   caption: Unicode text test
 - src: /static/blog/2023_AugustSeptember/unicodetext2.png
   caption: Signs with unicode
+gallery_archtec:
+- src: /static/blog/2023_AugustSeptember/archtec1.png
+- src: /static/blog/2023_AugustSeptember/archtec2.png
 ---
 
 The main menu gets more love in preparation for the 5.8.0 release, developers come and go, and new shaders are in the
@@ -46,6 +50,7 @@ works. CTF celebrates its 10th anniversary, and new API mods make their way to C
 - [Games News](#games-news)
 - [Mods News](#mods-news)
 - [Art and Builds](#art-and-builds)
+- [Server News](#server-news)
 - [In Other News](#in-other-news)
 
 ## Engine News
@@ -128,6 +133,15 @@ cora](https://content.minetest.net/packages/cora/ucsigns/) provides signs that u
 text.
 
 {% include figure_gallery.html items=page.gallery_unicodetext %}
+
+## Server News
+
+### Archtec
+<sub>archtec.niklp.net:30803</sub>
+
+{% include figure_gallery.html items=page.gallery_archtec %}
+
+The [Arctech server](https://forum.minetest.net/viewtopic.php?p=427083) recently added chat bridges to Matrix and IRC for more flexible communication while in-game. Their building team has also been working on some cool new creations!
 
 ## Other News
 Keep an eye out for the 2023 Minetest GAME JAM later this year!

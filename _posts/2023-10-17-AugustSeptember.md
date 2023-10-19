@@ -55,8 +55,7 @@ works. CTF celebrates its 10th anniversary, and new API mods make their way to C
 
 ## Engine News
 As the 5.8.0 release marches closer, more work has been done to improve the main menu. It [now uses the latest version
-of formspec]({{page.pulls}}/13761) and [properly supports hypertext]({{page.pulls}}/13731), and the settings tab has
-been [replaced with a button]({{page.pulls}}/13762). The user experience has been improved with [better game bar
+of formspec]({{page.pulls}}/13761), [properly supports hypertext]({{page.pulls}}/13731), and uses [a button in place of the settings tab]({{page.pulls}}/13762). The user experience has been improved with [better game bar
 scrolling]({{page.pulls}}/13768), [persisting text fields]({{page.pulls}}/13685), and [asynchronous package
 loading]({{page.pulls}}/13551) on the ContentDB page. 
 
@@ -87,8 +86,8 @@ materials. It has a long way to go but adds another layer of beauty to the Minet
 
 ### Capture the Flag
 August 16th, 2023 was [Capture the Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/)'s 10th
-anniversary. Capture the Flag is a multiplayer game where two teams of players battle to claim the other team’s flag
-whilst defending their own. It is played in a destructible voxel environment, allowing players to build defenses and
+anniversary. Capture the Flag is a multiplayer game where two teams of players battle to claim the other team's flag
+while defending their own. It is played in a destructible voxel environment, allowing players to build defenses and
 place traps.
 
 You can find out more about CTF's history and development in [the 10th anniversary blog

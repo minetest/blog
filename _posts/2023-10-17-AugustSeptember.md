@@ -151,7 +151,7 @@ Luacontrollers) computer" by 1F616EMO' %}
 
 {% include figure_gallery.html items=page.gallery_archtec %}
 
-The [Arctech server](https://forum.minetest.net/viewtopic.php?p=427083) recently added chat bridges to Matrix and IRC
+The [Arctech server](https://archtec.niklp.net/) recently added chat bridges to Matrix and IRC
 for more flexible communication while in-game. Their building team has also been working on some cool new creations!
 
 ## Other News

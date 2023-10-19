@@ -134,6 +134,17 @@ text.
 
 {% include figure_gallery.html items=page.gallery_unicodetext %}
 
+## Art and Builds
+
+{% include figure.html src="/static/blog/2023_AugustSeptember/build_camper.png" caption='"Who wants to cook?" by
+1.1.8.4' %}
+
+{% include figure.html src="/static/blog/2023_AugustSeptember/build_cityhall.png" caption='"City hall, German Creative
+Server" by Toadie' %}
+
+{% include figure.html src="/static/blog/2023_AugustSeptember/build_computer.png" caption='"Mesecon-only (without
+Luacontrollers) computer" by 1F616EMO' %}
+
 ## Server News
 
 ### Archtec
@@ -141,7 +152,8 @@ text.
 
 {% include figure_gallery.html items=page.gallery_archtec %}
 
-The [Arctech server](https://forum.minetest.net/viewtopic.php?p=427083) recently added chat bridges to Matrix and IRC for more flexible communication while in-game. Their building team has also been working on some cool new creations!
+The [Arctech server](https://forum.minetest.net/viewtopic.php?p=427083) recently added chat bridges to Matrix and IRC
+for more flexible communication while in-game. Their building team has also been working on some cool new creations!
 
 ## Other News
 Keep an eye out for the 2023 Minetest GAME JAM later this year!

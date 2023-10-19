@@ -1,5 +1,9 @@
 @import "bulma";
 
+html {
+	overflow-y: auto;
+}
+
 article {
 	line-height: 1.6;
 	font-size: 20px;

@@ -77,7 +77,7 @@ maps](https://github.com/search?q=repo%3Aminetest%2Fminetest+shadow+author%3Ax20
 adopters.
 
 Even more shaders are in development as well. Godrays developed by x2048 (now [adopted and in
-testing]({{page.pulls}}/13881)) complement bloom and shadows wonderfully. GreenXenith is working on a [highly
+testing]({{page.pulls}}/13881)) complement bloom and shadows wonderfully. GreenXenith has been working on a [highly
 experimental screen-space reflection shader](https://github.com/GreenXenith/minetest/tree/bfs_ssr) for water and other
 materials. It has a long way to go but adds another layer of beauty to the Minetest world.
 

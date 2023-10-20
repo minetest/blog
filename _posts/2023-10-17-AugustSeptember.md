@@ -13,32 +13,32 @@ description: >
   The main menu gets more love in preparation for the 5.8.0 release, developers come and go, and new shaders are in the works. CTF celebrates its 10th anniversary, and new API mods make their way to ContentDB.
 tags:
   - last_month
-image: /static/blog/2023_AugustSeptember/header.png
+image: /static/blog/2023_AugustSeptember/header.jpg
 
 pulls: https://github.com/minetest/minetest/pull
 gallery_shaders:
-- src: /static/blog/2023_AugustSeptember/godrays.png
+- src: /static/blog/2023_AugustSeptember/godrays.jpg
   caption: Godrays through the trees
-- src: /static/blog/2023_AugustSeptember/reflections.png
+- src: /static/blog/2023_AugustSeptember/reflections.jpg
   caption: Screen-space water reflections
 gallery_ctf:
-- src: /static/blog/2023_AugustSeptember/ctf1.png
+- src: /static/blog/2023_AugustSeptember/ctf1.jpg
   caption: Party hats and fireworks
-- src: /static/blog/2023_AugustSeptember/ctf2.png
+- src: /static/blog/2023_AugustSeptember/ctf2.jpg
   caption: Fireworks in the sky
 gallery_httpblocks:
-- src: /static/blog/2023_AugustSeptember/httpblock1.png
+- src: /static/blog/2023_AugustSeptember/httpblock1.jpg
   caption: Downloaded HTML
-- src: /static/blog/2023_AugustSeptember/httpblock2.png
+- src: /static/blog/2023_AugustSeptember/httpblock2.jpg
   caption: HTTP Statuses
 gallery_unicodetext:
-- src: /static/blog/2023_AugustSeptember/unicodetext1.png
+- src: /static/blog/2023_AugustSeptember/unicodetext1.jpg
   caption: Unicode text test
-- src: /static/blog/2023_AugustSeptember/unicodetext2.png
+- src: /static/blog/2023_AugustSeptember/unicodetext2.jpg
   caption: Signs with unicode
 gallery_archtec:
-- src: /static/blog/2023_AugustSeptember/archtec1.png
-- src: /static/blog/2023_AugustSeptember/archtec2.png
+- src: /static/blog/2023_AugustSeptember/archtec1.jpg
+- src: /static/blog/2023_AugustSeptember/archtec2.jpg
 ---
 
 The main menu gets more love in preparation for the 5.8.0 release, developers come and go, and new shaders are in the
@@ -135,13 +135,13 @@ text.
 
 ## Art and Builds
 
-{% include figure.html src="/static/blog/2023_AugustSeptember/build_camper.png" caption='"Who wants to cook?" by
+{% include figure.html src="/static/blog/2023_AugustSeptember/build_camper.jpg" caption='"Who wants to cook?" by
 1.1.8.4' %}
 
-{% include figure.html src="/static/blog/2023_AugustSeptember/build_cityhall.png" caption='"City hall, German Creative
+{% include figure.html src="/static/blog/2023_AugustSeptember/build_cityhall.jpg" caption='"City hall, German Creative
 Server" by Toadie' %}
 
-{% include figure.html src="/static/blog/2023_AugustSeptember/build_computer.png" caption='"Mesecon-only (without
+{% include figure.html src="/static/blog/2023_AugustSeptember/build_computer.jpg" caption='"Mesecon-only (without
 Luacontrollers) computer" by 1F616EMO' %}
 
 ## Server News

@@ -15,6 +15,8 @@ tags:
   - last_month
 image: /static/blog/2023_AugustSeptember/header.jpg
 
+forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=29889
+
 pulls: https://github.com/minetest/minetest/pull
 gallery_shaders:
 - src: /static/blog/2023_AugustSeptember/godrays.jpg

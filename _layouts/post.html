@@ -84,10 +84,12 @@ layout: default
 
 		{{ content }}
 
-		{% if page.contributors %}
-			<p class="mt-6">
-				Thanks to our post contributors this month:
-				{{ page.contributors | join: ", " }}.
+		{% if page.contributors or page.image_credit %}
+			<p class="mt-6 has-text-grey">
+				{% if page.contributors %}
+					Thanks to our post contributors this month:
+					{{ page.contributors | join: ", " }}.
+				{% endif %}
 				{% if page.image_credit %}
 					Cover image by {{ page.image_credit }}.
 				{% endif %}

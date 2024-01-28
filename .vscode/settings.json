@@ -20,6 +20,11 @@
 			"language": "markdown",
 			"scheme": "file",
 			"pattern": "_posts/2023-04-00-March.md"
+		},
+		{
+			"language": "markdown",
+			"scheme": "file",
+			"pattern": "_posts/2024-01-17-January.md"
 		}
 	]
 }

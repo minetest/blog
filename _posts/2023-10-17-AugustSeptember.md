@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "August and September - Early Autumn in Minetest (15)"
+title: "August and September in Minetest (15)"
 contributors:
   - 56independent
   - erlehmann
@@ -53,13 +53,13 @@ works. CTF celebrates its 10th anniversary, and new API mods make their way to C
 - [Mods News](#mods-news)
 - [Art and Builds](#art-and-builds)
 - [Server News](#server-news)
-- [In Other News](#in-other-news)
+- [Other News](#other-news)
 
 ## Engine News
 As the 5.8.0 release marches closer, more work has been done to improve the main menu. It [now uses the latest version
 of formspec]({{page.pulls}}/13761), [properly supports hypertext]({{page.pulls}}/13731), and uses [a button in place of the settings tab]({{page.pulls}}/13762). The user experience has been improved with [better game bar
 scrolling]({{page.pulls}}/13768), [persisting text fields]({{page.pulls}}/13685), and [asynchronous package
-loading]({{page.pulls}}/13551) on the ContentDB page. 
+loading]({{page.pulls}}/13551) on the ContentDB page.
 
 Minetest's newest core developer, [grorp](https://github.com/grorp), has been hard at work fixing various GUI and
 rendering issues, improving the user experience, and squashing lots of bugs. [41 commits and

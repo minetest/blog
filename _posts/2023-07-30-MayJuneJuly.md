@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "May, June, and July - Early Summer in Minetest (14)"
+title: "May, June, and July in Minetest (14)"
 contributors:
   - MisterE
   - Rubenwardy
@@ -23,8 +23,9 @@ asuna:
   caption: Cursed Lands Under
 ---
 
-Work on the 5.8 release continues with some exciting new engine improvements, a classic game makes its way to ContentDB,
-and the use of Minetest in education was explored.
+Work on the 5.8 release continues with some exciting new engine improvements, a
+classic game makes its way to ContentDB, and the use of Minetest in education
+was explored.
 
 <!-- more -->
 

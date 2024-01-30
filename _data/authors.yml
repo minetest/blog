@@ -1,12 +1,17 @@
 MisterE:
   url: https://forum.minetest.net/memberlist.php?mode=viewprofile&u=26284
-  avatar: https://forum.minetest.net/download/file.php?avatar=26284_1637631708.png
+  avatar: https://content.minetest.net/uploads/0e4b2df335.png
   role: Editor
 
 rubenwardy:
   url: https://rubenwardy.com/
-  avatar: https://rubenwardy.com/static/ruben-512.png
+  avatar: https://content.minetest.net/uploads/ec451ad04f.jpg
   role: Editor + Web Design
+
+GreenXenith:
+  url: https://www.greenxenith.com/
+  avatar: https://content.minetest.net/uploads/8360236d9f.png
+  role: Editor
 
 Exe_Virus:
   url: https://content.minetest.net/users/Just_Visiting/

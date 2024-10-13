@@ -58,10 +58,10 @@ platform where anyone can make something. It's a platform that will keep evolvin
 
 ## Moving Forward
 
-With the new name, a few changes will be made in the engine and community. Obviously, all the repositories and
-community hubs will adopt the Luanti name in some form. You'll be able to find the website at luanti.org and
-repositories at [github.com/luanti-org](https://github.com/luanti-org) (many old links will redirect). Our social
-platforms will change similarly. You'll probably still hear "Minetest" occasionally in reference to [Minetest
+With the new name, a few changes will be made in the engine and community. Obviously, all the repositories and community
+hubs will adopt the Luanti name in some form. You'll be able to find the website at luanti.org and repositories at
+[github.com/luanti-org](https://github.com/luanti-org) (many old links will redirect). Our social platforms will change
+similarly. The logo will be staying, and you'll probably still hear "Minetest" occasionally in reference to [Minetest
 Game](https://content.minetest.net/packages/Minetest/minetest_game/) which will remain a testament to the project's
 roots. Otherwise, Luanti now represents the future of the platform.
 

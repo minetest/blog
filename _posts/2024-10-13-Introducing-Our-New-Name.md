@@ -40,7 +40,7 @@ era. Welcome 🥁 ... **Luanti!**
 
 ## Luanwhat?
 
-"Luanti" is a wordplay on the Finnish word *luonti* ("creation") and the programming language Minetest Luanti employs
+"Luanti" is a wordplay on the Finnish word *luonti* ("creation") and the programming language ~~Minetest~~ Luanti employs
 for games and mods, *Lua*. The goal was to avoid yet another plain English word (good luck finding something unique...)
 and highlight the core principles of the project. The fusion of celeron55's Finnish nationality and the platform's focus
 on content creation resulted in the birth of "Luanti".

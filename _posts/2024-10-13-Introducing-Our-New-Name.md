@@ -66,9 +66,9 @@ Game](https://content.minetest.net/packages/Minetest/minetest_game/) which will 
 roots. Otherwise, Luanti now represents the future of the platform.
 
 For developers, the engine won't actually change much. For those who aren't aware, `core` is actually the real Lua
-namespace used internally, `minetest` is just an alias. Rather than rename all the namespaces to `luanti`, `core` will
-be the official namespace to use. It's shorter to type, easier to remember, and backwards-compatible. It's also
-friendlier to forks and future name changes (which we don't plan to do, promise!)
+namespace used internally, `minetest` is just an alias (which we will keep for compatibility). Rather than rename all
+the namespaces to `luanti`, `core` will be the official namespace to use. It's shorter to type, easier to remember, and
+backwards-compatible. It's also friendlier to forks and future name changes (which we don't plan to do, promise!)
 
 We hope that, free from the ghost of its past, Luanti can bloom into something more and bring life to adventures and
 experiences for years to come. It can now live and breathe on its own, explore its nature and potential, and overcome

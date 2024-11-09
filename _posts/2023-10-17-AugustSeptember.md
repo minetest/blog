@@ -15,7 +15,7 @@ tags:
   - last_month
 image: /static/blog/2023_AugustSeptember/header.jpg
 
-forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=29889
+forum_topic: https://forum.luanti.org/viewtopic.php?f=18&t=29889
 
 pulls: https://github.com/minetest/minetest/pull
 gallery_shaders:
@@ -102,7 +102,7 @@ The game anniversary and 8th anniversary of the official server (`ctf.rubenwardy
 
 ### Glitch
 [The winner of the 2022 Minetest GAME JAM](https://content.luanti.org/packages/Wuzzy/glitch/) has continued
-development since then. [As of August](https://forum.minetest.net/viewtopic.php?p=428292#p428292), Glitch (by Wuzzy) has
+development since then. [As of August](https://forum.luanti.org/viewtopic.php?p=428292#p428292), Glitch (by Wuzzy) has
 [a weblate](https://translate.codeberg.org/projects/glitch/) where the community can contribute game translations. You
 can read about the development history of Glitch on [Wuzzy's
 website](https://wuzzy.codeberg.page/games/makingof_glitch/).

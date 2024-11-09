@@ -66,5 +66,5 @@ If you have something great to share:
    [GitHub issue tracker](https://github.com/minetest/blog/issues).
 
    Alternatively, you can contact an editor on the forums
-   ([MisterE](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=26284))
+   ([MisterE](https://forum.luanti.org/memberlist.php?mode=viewprofile&u=26284))
    or post an issue on [GitLab](https://gitlab.com/minetest/blog/-/issues).

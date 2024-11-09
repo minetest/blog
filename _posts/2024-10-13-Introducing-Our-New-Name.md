@@ -10,7 +10,7 @@ contributors:
   - FreshReplicant
 image: /static/blog/New_Name/cover.jpg
 image_credit: Zughy
-forum_topic: https://forum.minetest.net/viewtopic.php?t=31048
+forum_topic: https://forum.luanti.org/viewtopic.php?t=31048
 ---
 
 "Is this a Minecraft clone? Is it like Minecraft Alpha?" If you've been a member of our community for some time, you are

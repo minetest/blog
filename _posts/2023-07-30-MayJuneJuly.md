@@ -12,7 +12,7 @@ contributors:
 description: >
   Work on the 5.8 release continues with some exciting new engine improvements, a classic game makes its way to
   ContentDB, and the use of Minetest in education was explored.
-#forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=29501
+#forum_topic: https://forum.luanti.org/viewtopic.php?f=18&t=29501
 tags:
   - last_month
 image: /static/blog/2023_MayJune/header.png

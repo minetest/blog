@@ -14,7 +14,7 @@ description: >
   merged, and Android crosshair support was added. Minefall released on ContentDB,
   BlockExchange got a graphical rework, and more!
 image: /static/blog/2022_September/castleprop.jpg
-forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=28773
+forum_topic: https://forum.luanti.org/viewtopic.php?f=18&t=28773
 tags:
   - last_month
 wsortrains:
@@ -75,7 +75,7 @@ the pause menu.
 
 [Nodecore](https://content.luanti.org/packages/Warr1024/nodecore/) received a
 significant performance update. Warr1024 found that
-[TurkeyMcMac's LuaJIT Profiler](https://forum.minetest.net/viewtopic.php?t=28135)
+[TurkeyMcMac's LuaJIT Profiler](https://forum.luanti.org/viewtopic.php?t=28135)
 was particularly useful in finding the cause of performance issues - much more
 useful than the built-in profiler. That helped him discover functions that were
 more expensive than expected, such as `minetest.check_player_privs()`.
@@ -166,7 +166,7 @@ minigame that is best described as "Soccer with guns". It now has passive
 skills and a menu for choosing them. Check out the pads to the side of the
 Blockleague island to choose your skill. There will be up to 8 teams of 3
 players each for the tournament. See the details
-[here](https://forum.minetest.net/viewtopic.php?p=415626#p415626) for how to
+[here](https://forum.luanti.org/viewtopic.php?p=415626#p415626) for how to
 sign up.
 
 ## In Other News
@@ -176,7 +176,7 @@ sign up.
 GeneralBaker began a project to recreate Mindustry in 3d in Minetest. The first
 stable release is still a long way off, but the project is looking for
 contributors. Check it out here:
-[Forum](https://forum.minetest.net/viewtopic.php?f=49&t=28685) and
+[Forum](https://forum.luanti.org/viewtopic.php?f=49&t=28685) and
 [Git](https://gitlab.com/ReallyBasicGames/mindustry_3d)
 
 ### Blog Content

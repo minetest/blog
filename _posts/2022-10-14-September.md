@@ -73,7 +73,7 @@ the pause menu.
 
 ### Nodecore
 
-[Nodecore](https://content.minetest.net/packages/Warr1024/nodecore/) received a
+[Nodecore](https://content.luanti.org/packages/Warr1024/nodecore/) received a
 significant performance update. Warr1024 found that
 [TurkeyMcMac's LuaJIT Profiler](https://forum.minetest.net/viewtopic.php?t=28135)
 was particularly useful in finding the cause of performance issues - much more
@@ -85,14 +85,14 @@ more expensive than expected, such as `minetest.check_player_privs()`.
 {% include figure.html src="/static/blog/2022_September/cave_game.png"
     caption="Cave Game" %}
 
-[Olive](https://content.minetest.net/users/GoodClover/) made
-[Cave Game](https://content.minetest.net/packages/GoodClover/cavegame/), a
+[Olive](https://content.luanti.org/users/GoodClover/) made
+[Cave Game](https://content.luanti.org/packages/GoodClover/cavegame/), a
 recreation of Notch's first implementation of Minecraft. It has Stone and Grass.
 Yeah, that's about it.
 
 ### Minefall
 
-[Minefall](https://content.minetest.net/packages/Astrobe/minefall/) was released
+[Minefall](https://content.luanti.org/packages/Astrobe/minefall/) was released
 on ContentDB. It is a new take on the Minetest Game concept. Its main feature is
 the ability of players to levitate if they have enough stamina. Also, it has
 hostile mobs and flying whales.
@@ -101,9 +101,9 @@ hostile mobs and flying whales.
 
 ### BlockExchange
 
-[BuckarooBanzai](https://content.minetest.net/users/BuckarooBanzay/) rewrote
+[BuckarooBanzai](https://content.luanti.org/users/BuckarooBanzay/) rewrote
 most of the frontend part of the
-[BlockExchange project](https://content.minetest.net/packages/BuckarooBanzay/blockexchange/) -
+[BlockExchange project](https://content.luanti.org/packages/BuckarooBanzay/blockexchange/) -
 it should now be fairly usable/stable.
 Also, it has moved to a new home/address: https://blockexchange.minetest.ch/
 instead of the .land domain).
@@ -113,14 +113,14 @@ instead of the .land domain).
 {% include figure.html src="/static/blog/2022_September/mesejet_train.png"
     caption="MeseJets in a Railyard" %}
 
-[Xenon](ttps://content.minetest.net/users/xenonca/) released the first version
+[Xenon](ttps://content.luanti.org/users/xenonca/) released the first version
 of another Advanced Trains expansion pack. So far it only includes the MeseJet,
 a bullet train that has color-coded line numbers displayed on its side.
 
 ### TNT Tag
 
-[debiankaios](https://content.minetest.net/users/debiankaios/) released
-[TNTtag](https://content.minetest.net/packages/debiankaios/tnttag/). Don't get tagged with TNT, and if you do get tagged, be sure to tag someone else before
+[debiankaios](https://content.luanti.org/users/debiankaios/) released
+[TNTtag](https://content.luanti.org/packages/debiankaios/tnttag/). Don't get tagged with TNT, and if you do get tagged, be sure to tag someone else before
 the time runs out and the TNT on your head explodes!
 
 ## Textures
@@ -130,8 +130,8 @@ the time runs out and the TNT on your head explodes!
 {% include figure.html src="/static/blog/2022_September/ocd.png"
     caption="The OCD texture pack" %}
 
-[ROllerozxa](https://content.minetest.net/users/ROllerozxa/) released the
-[OhCeeDee texture pack](https://content.minetest.net/packages/ROllerozxa/ohceedee/),
+[ROllerozxa](https://content.luanti.org/users/ROllerozxa/) released the
+[OhCeeDee texture pack](https://content.luanti.org/packages/ROllerozxa/ohceedee/),
 inspired by FVDisco's oCd Minecraft resource pack.
 
 ## Art and Builds

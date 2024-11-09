@@ -87,7 +87,7 @@ materials. It has a long way to go but adds another layer of beauty to the Minet
 ## Games News
 
 ### Capture the Flag
-August 16th, 2023 was [Capture the Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/)'s 10th
+August 16th, 2023 was [Capture the Flag](https://content.luanti.org/packages/rubenwardy/capturetheflag/)'s 10th
 anniversary. Capture the Flag is a multiplayer game where two teams of players battle to claim the other team's flag
 while defending their own. It is played in a destructible voxel environment, allowing players to build defenses and
 place traps.
@@ -101,7 +101,7 @@ The game anniversary and 8th anniversary of the official server (`ctf.rubenwardy
 {% include figure_gallery.html items=page.gallery_ctf %}
 
 ### Glitch
-[The winner of the 2022 Minetest GAME JAM](https://content.minetest.net/packages/Wuzzy/glitch/) has continued
+[The winner of the 2022 Minetest GAME JAM](https://content.luanti.org/packages/Wuzzy/glitch/) has continued
 development since then. [As of August](https://forum.minetest.net/viewtopic.php?p=428292#p428292), Glitch (by Wuzzy) has
 [a weblate](https://translate.codeberg.org/projects/glitch/) where the community can contribute game translations. You
 can read about the development history of Glitch on [Wuzzy's
@@ -111,8 +111,8 @@ website](https://wuzzy.codeberg.page/games/makingof_glitch/).
 
 ### HTTP Blocks
 You can send `POST` and `GET` requests directly from Minetest using the new [HTTPBlocks mod by
-56independent](https://content.minetest.net/packages/56independent/httpblock/)! This
-[Digilines](https://content.minetest.net/packages/Jeija/digilines/) device allows you to construct complex systems that
+56independent](https://content.luanti.org/packages/56independent/httpblock/)! This
+[Digilines](https://content.luanti.org/packages/Jeija/digilines/) device allows you to construct complex systems that
 can talk to web endpoints and request plaintext files, records, and any other raw web data.
 
 The mod, of course, requires HTTP trust to use Minetest's HTTP API. Future plans include HTML querying using selector
@@ -121,16 +121,16 @@ blocks, blocks to convert JSON to Lua tables, and maybe websocket support in the
 {% include figure_gallery.html items=page.gallery_httpblocks %}
 
 ### Unicode Text Rendering
-The [Unicode Text library by erlehmann](https://content.minetest.net/packages/erlehmann/unicode_text/) is built to
+The [Unicode Text library by erlehmann](https://content.luanti.org/packages/erlehmann/unicode_text/) is built to
 render fixed-width and variable-width [GNU Unifont fonts](http://savannah.gnu.org/projects/unifont/) (`.hex`). UTF-8
 text input is converted to a table of pixels that can be written to an image file (such as a
 [PNG](https://github.com/minetest/minetest/blob/5.7.0/doc/lua_api.txt#L5089-L5102) or
-[TGA](https://content.minetest.net/packages/erlehmann/tga_encoder/)). Non-Unicode text can also be written using the
+[TGA](https://content.luanti.org/packages/erlehmann/tga_encoder/)). Non-Unicode text can also be written using the
 Unifont CSUR font.
 
 By rendering text to a single image server-side, the full range of Unicode can be supported by servers without sending
 thousands or tens of thousands of textures to Minetest clients. The [Unicode Signs mod by
-cora](https://content.minetest.net/packages/cora/ucsigns/) provides signs that use the Unicode Text library to draw
+cora](https://content.luanti.org/packages/cora/ucsigns/) provides signs that use the Unicode Text library to draw
 text.
 
 {% include figure_gallery.html items=page.gallery_unicodetext %}

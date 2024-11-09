@@ -1,32 +1,32 @@
 ---
 title: About
-description: About the Minetest blog
+description: About the Luanti blog
 layout: page
 ---
 
 # About
 
-## What is Minetest?
+## What is Luanti?
 
-[Minetest](https://www.minetest.net) is an open source voxel game engine. See
+[Luanti](https://www.minetest.net) is an open source voxel game engine. See
 the website for more information.
 
 <a href="https://www.minetest.net/" class="button is-primary">
-	Minetest Website
+	Luanti Website
 </a>
 
-## What is the Minetest blog?
+## What is the Luanti blog?
 
 We post updates about once per month (subject to change) to let you know what's
-new with Minetest. We cover everything about Minetest, from engine development,
+new with Luanti. We cover everything about Luanti, from engine development,
 to mod and game progress, to server news and community events. Even
-Minetest-related artwork has a place here. Posts are subdivided by general
+Luanti-related artwork has a place here. Posts are subdivided by general
 topic.
 
 We can also do special posts about important events or updates important to the
-general Minetest community.
+general Luanti community.
 
-## Who is behind the Minetest Blog?
+## Who is behind the Luanti Blog?
 
 <div class="columns">
 	{% for pair in site.data.authors %}
@@ -54,7 +54,7 @@ general Minetest community.
 
 ## Contributing to Posts
 
-Are you working with Minetest? We'd love to know what's new with you! We're
+Are you working with Luanti? We'd love to know what's new with you! We're
 looking for news about engine/mod/game development, servers, art and builds,
 and more.
 

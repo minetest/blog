@@ -1,4 +1,4 @@
-- title: Minetest
+- title: Luanti
   icon: fas fa-home
   url: https://www.minetest.net
 
@@ -8,11 +8,12 @@
 
 - title: Twitter
   icon: fab fa-twitter
+  # TODO what's the status on the X account reserved by celeron here?
   url: https://twitter.com/MinetestProject
 
 - title: Mastodon
   icon: fab fa-mastodon
-  url: https://fosstodon.org/@Minetest
+  url: https://fosstodon.org/@Luanti
 
 - title: RSS
   icon: fas fa-rss

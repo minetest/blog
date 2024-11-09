@@ -2,7 +2,7 @@
 
 ## What you can contribute
 
-Are you working with Minetest? We'd love to know what's new with you! We're
+Are you working with Luanti? We'd love to know what's new with you! We're
 looking for news about engine/mod/game development, servers, art and builds,
 and more.
 
@@ -29,7 +29,7 @@ Replace `content description` with a very brief title/description of your submis
 
 Highly recommended:
 
-* One or two screenshots or GIFs that *effectively* communicates your message. The screenshot may or may not be included in the final post depending on how important your update is deemed to be by the editors, and how well the screenshot adds to understanding the message. Don't expect to have a screenshot of Minetest Game included in a post about a general API update, for example.
+* One or two screenshots or GIFs that *effectively* communicates your message. The screenshot may or may not be included in the final post depending on how important your update is deemed to be by the editors, and how well the screenshot adds to understanding the message. Don't expect to have a screenshot of your game included in a post about a general API update, for example.
 * Include who took the screenshot.
 
 IMPORTANT:
@@ -46,7 +46,7 @@ Please only submit content for current updates.
 ### Cover screenshots, Build screenshots, and Art
 
 Each post should have a cover screenshot that will be the background for the
-title. We may also include a "Minetest at its best" screenshot, showing players
+title. We may also include a "Luanti at its best" screenshot, showing players
 having fun, and show some cool builds.
 
 Please make submissions each month for these! When you make the issue, format

@@ -1,6 +1,6 @@
-# Minetest Blog
+# Luanti Blog
 
-Minetest's official blog - see what's new in Minetest!
+Luanti's official blog - see what's new in Luanti!
 
 License: MIT<br>
 Editor: MisterE

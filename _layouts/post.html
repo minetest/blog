@@ -13,41 +13,43 @@ layout: default
 		<div class="container">
 			<h1 class="title">{{ page.title }}</h1>
 			<p class="subtitle">
-				{%- if page.authors -%}
+				{% if page.authors %}
 					Written by
-					{%- for author in page.authors -%}
-						{%- assign data = site.data.authors[author] -%}
-						{%- if data -%}
-							<a href="{{ data.url }}">
-								{{author -}}
-							</a>
-						{%- else -%}
-							{{ author -}}
-						{%- endif -%}
+					{%- for author in page.authors %}
+						{%- if forloop.last == true %}
+                            {%- if forloop.index > 2 %},{%- endif %}
+                            {% if forloop.index > 1 %}and{% endif %}
+                        {%- else %}
+                            {%- if forloop.index > 1 %},{%- endif %}
+						{%- endif %}
 
-						{%- if forloop.last == false -%}
-							,
-						{%- endif -%}
-					{%- endfor -%}
-				{%- endif -%}
+						{% assign data = site.data.authors[author] %}
+						{%- if data %}
+							<a href="{{ data.url }}">{{- author}}</a>
+						{%- else %}
+							{{- author}}
+						{%- endif %}
+					{%- endfor %}
+				{% endif %}
 
-				{%- if page.editors -%}
+                {% if page.editors %}
 					<br>Edited by
-					{%- for editor in page.editors -%}
-						{% assign data = site.data.authors[editor] %}
-						{% if data %}
-							<a href="{{ data.url }}">
-								{{editor -}}
-							</a>
-						{% else %}
-							{{ editor -}}
-						{% endif %}
+					{%- for editor in page.editors %}
+						{%- if forloop.last == true %}
+                            {%- if forloop.index > 2 %},{%- endif %}
+                            {% if forloop.index > 1 %}and{% endif %}
+                        {%- else %}
+                            {%- if forloop.index > 1 %},{%- endif %}
+						{%- endif %}
 
-						{%- if forloop.last == false -%}
-							,
-						{%- endif -%}
-					{%- endfor -%}
-				{%- endif -%}
+						{% assign data = site.data.authors[editor] %}
+						{%- if data %}
+							<a href="{{ data.url }}">{{- editor}}</a>
+						{%- else %}
+							{{- editor}}
+						{%- endif %}
+					{%- endfor %}
+				{% endif %}
 			</p>
 			<p>
 				{% for tagname in page.tags %}

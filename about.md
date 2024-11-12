@@ -8,10 +8,10 @@ layout: page
 
 ## What is Luanti?
 
-[Luanti](https://www.minetest.net) is an open source voxel game engine. See
+[Luanti](https://www.luanti.org) is an open source voxel game engine. See
 the website for more information.
 
-<a href="https://www.minetest.net/" class="button is-primary">
+<a href="https://www.luanti.org" class="button is-primary">
 	Luanti Website
 </a>
 

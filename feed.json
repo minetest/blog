@@ -10,8 +10,8 @@ sitemap:
     {% if site.description %}"description": {{ site.description | smartify | jsonify }},{% endif %}
     "home_page_url": "{{ site.url }}/",
     "feed_url": "{{ site.url }}/feed.json",
-    "icon": "https://www.minetest.net/media/icon.svg",
-    "favicon": "https://www.minetest.net/media/icon.svg",
+    "icon": "https://www.luanti.org/media/icon.svg",
+    "favicon": "https://www.luanti.org/media/icon.svg",
     "expired": false,
     "items": [
 {% for post in site.posts %}

@@ -1,7 +1,8 @@
-name: Minetest Blog
-description: Minetest's official blog - see what's new in Minetest!
-author: Minetest
+name: Luanti Blog
+description: Luanti's official blog - see what's new in Luanti!
+author: Luanti
 permalink: pretty
+# TODO blog.luanti.org once celeron makes it work
 url: https://blog.minetest.net
 
 exclude:

@@ -4,7 +4,7 @@ layout: default
 
 {% assign cover_image = page.image %}
 {% if page.image_has_full %}
-	{% assign cover_image = cover_image | replace: ".", "_full." %}
+	{% assign cover_image = cover_image | replace: ".jpg", "_full.jpg" | replace: ".png", "_full.png" %}
 {% endif %}
 
 <header class="hero hero-shadow is-medium is-primary">
@@ -39,12 +39,60 @@ layout: default
 
 <main class="container my-6">
 	<article class="content">
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BlogPosting",
+				"headline": {{ page.title | jsonify }},
+				"image": {{ cover_image | absolute_url | jsonify }},
+				"wordcount": {{ page.content | number_of_words | jsonify }},
+				"url": {{ page.url | absolute_url | jsonify }},
+				"datePublished": {{ page.date | date: "%F" | jsonify }},
+				"dateCreated": {{ page.date | date: "%F" | jsonify }},
+				"description": {{ page.description | jsonify }},
+				"articleBody": {{ content | jsonify }},
+				"inLanguage": "en",
+				"mainEntityOfPage": "True",
+				{% if page.author %}
+					"author": {
+						"@type": "Person",
+						"name": {{ page.author | jsonify }},
+						"url": {{ author.url | jsonify }}
+					},
+				{% else %}
+					"author": {
+						"@type": "Organization",
+						"name": "Luanti",
+						"url": "https://www.luanti.org",
+						"logo": {
+							"@type": "ImageObject",
+							"url": "https://www.luanti.org/media/icon.svg"
+						}
+					},
+				{% endif %}
+				"publisher": {
+					"@type": "Organization",
+					"name": "Luanti",
+					"url": "https://www.luanti.org",
+					"logo": {
+						"@type": "ImageObject",
+						"url": "https://www.luanti.org/media/icon.svg"
+					}
+				}
+			}
+		</script>
+
 		{{ content }}
 
-		{% if page.contributors %}
-			<p class="mt-6">
-				Thanks to our post contributors this month:
-				{{ page.contributors | join: ", " }}.
+		{% if page.contributors or page.image_credit %}
+			<p class="mt-6 has-text-grey">
+				{% if page.contributors %}
+					Thanks to our post contributors this month:
+					{{ page.contributors | join: ", " }}.
+				{% endif %}
+				{% if page.image_credit %}
+					Cover image by {{ page.image_credit }}.
+				{% endif %}
 			</p>
 		{% endif %}
 	</article>

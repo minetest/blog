@@ -1,12 +1,13 @@
 {% assign img_url = include.src | default: include.value.src %}
 {% assign link_url = img_url %}
-{% if include.full %}
-	{% assign link_url = link_url | replace: ".", "_full." %}
+{% if include.full or include.value.full %}
+	{% assign link_url = link_url | replace: ".jpg", "_full.jpg" | replace: ".png", "_full.png" %}
 {% endif %}
 {% assign caption = include.caption | default: include.value.caption %}
-<figure class="figure image">
+{% assign alt = include.alt | default: include.value.alt | default: caption %}
+<figure class="figure image {{include.class }}">
 	<a href="{{ link_url }}">
-		<img src="{{ img_url }}" alt="{{ caption }}">
+		<img src="{{ img_url }}" alt="{{ alt | escape }}">
 	</a>
 	<figcaption>
 		{{ caption }}

@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "March - This Month in Minetest (02)"
+title:  "March - This Month in Luanti (02)"
 description: >
   Mapgen Work, Main Menu Redesign
 image: /static/blog/2022_March/Sunrays.png
 tags:
-  - this_month
+  - last_month
 ---
 
 Write a paragraph summarising this update.
@@ -27,7 +27,7 @@ What has been happening in engine development?
 ## Game News <a name="games"></a>
 
 
-What new games have been released and what new features have been added to games for Minetest?
+What new games have been released and what new features have been added to games for Luanti?
 
 ## Mod News <a name="mods"></a>
 
@@ -37,7 +37,7 @@ New mods and major Mod development updates
 ## Art and Builds <a name="art"></a>
 
 
-Amazing builds, Minetest-related art
+Amazing builds, Luanti-related art
 
 ## Server Spotlight <a name="s-spotlight"></a>
 

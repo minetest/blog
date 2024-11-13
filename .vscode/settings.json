@@ -1,0 +1,10 @@
+{
+	"markdown.extension.toc.levels": "1..2",
+	"grammarly.selectors": [
+		{
+			"language": "markdown",
+			"scheme": "file",
+			"pattern": "_posts/*.md"
+		}
+	]
+}

@@ -114,9 +114,26 @@ layout: default
 			<p class="mt-6 has-text-grey">
 				{% if page.contributors %}
 					Thanks to our post contributors this month:
-					{{ page.contributors | join: ", " }}.
+                    {%- for contributor in page.contributors %}
+                        {%- if forloop.last == true %}
+                            {%- if forloop.index > 2 %},{%- endif %}
+                            {% if forloop.index > 1 %}and{% endif %}
+                        {%- else %}
+                            {%- if forloop.index > 1 %},{%- endif %}
+                        {%- endif %}
+
+                        {% assign data = site.data.authors[contributor] %}
+                        {%- if data %}
+                            <a href="{{ data.url }}">{{- contributor}}</a>
+                        {%- else %}
+                            {{- contributor}}
+                        {%- endif %}
+                    {%- endfor %}
 				{% endif %}
 				{% if page.image_credit %}
+                    {% if page.contributors  %}
+                        <br>
+                    {% endif %}
 					Cover image by {{ page.image_credit }}.
 				{% endif %}
 			</p>

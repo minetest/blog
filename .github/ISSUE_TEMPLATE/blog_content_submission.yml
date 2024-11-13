@@ -1,5 +1,5 @@
 name: Blog Content Submission
-description: Add content to the Minetest Blog
+description: Add content to the Luanti Blog
 title: "[Content]: Your Title Here"
 labels: ["Submission"]
 assignees:
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for contributing to the Minetest Blog! Please read our [submission guidelines](https://github.com/minetest/blog/blob/master/.github/CONTRIBUTING.md)
+        Thank you for contributing to the Luanti Blog! Please read our [submission guidelines](https://github.com/minetest/blog/blob/master/.github/CONTRIBUTING.md)
 
         Next, choose the category for the content you want to submit.
         
@@ -16,12 +16,12 @@ body:
           <summary>Here is what we expect in the content submission for each category. (click to expand)</summary> 
 
         - Cover Image
-          - Just a high-quality screenshot that shows minetest at its best, to be displayed as the cover image for the post.
+          - Just a high-quality screenshot that shows Luanti at its best, to be displayed as the cover image for the post.
         - Engine News
           - Any news regarding the C++ engine code and possible contributions to it.
           - Include screenshot if applicable.
         - Games News
-          - News for games made with minetest. Only new games or nontrivial updates, please, don't flood.
+          - News for games made with Luanti. Only new games or nontrivial updates, please, don't flood.
           - Include screenshot(s) if applicable.
         - Mods News
           - News for mods. Only new mods or nontrivial updates, please, don't flood.
@@ -29,13 +29,13 @@ body:
         - Art/builds
           - Submit a high-quality screenshot and a caption. The caption should ideally be artisitc.
         - Education
-          - News about minetest being used as an educational tool.
+          - News about Luanti being used as an educational tool.
           - Include screenshot(s) if applicable.
         - Server News
           - Major server updates, changes, or upcoming events.
           - Include screenshot(s) if applicable.
         - In Other News
-          - Other Minetest-related news that does not fit into other categories.
+          - Other Luanti-related news that does not fit into other categories.
 
         Screenshots should be high-resolution and usually should have HUD and chat disabled unless the image is showcasing the HUD or chat.
 

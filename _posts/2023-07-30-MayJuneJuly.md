@@ -12,7 +12,7 @@ contributors:
 description: >
   Work on the 5.8 release continues with some exciting new engine improvements, a classic game makes its way to
   ContentDB, and the use of Minetest in education was explored.
-#forum_topic: https://forum.minetest.net/viewtopic.php?f=18&t=29501
+#forum_topic: https://forum.luanti.org/viewtopic.php?f=18&t=29501
 tags:
   - last_month
 image: /static/blog/2023_MayJune/header.png
@@ -64,9 +64,9 @@ filters](https://github.com/minetest/minetest/commit/c09a3a52acaffbcb389ea6d7005
 
 {% include figure_gallery.html items=page.asuna %}
 
-[Asuna](https://content.minetest.net/packages/EmptyStar/asuna/) by
-[EmptyStar](https://content.minetest.net/users/EmptyStar/) welcomes the otherworldly wonders of the
-[Everness](https://content.minetest.net/packages/SaKeL/everness/) mod to its domain! From the sparkling vistas of the
+[Asuna](https://content.luanti.org/packages/EmptyStar/asuna/) by
+[EmptyStar](https://content.luanti.org/users/EmptyStar/) welcomes the otherworldly wonders of the
+[Everness](https://content.luanti.org/packages/SaKeL/everness/) mod to its domain! From the sparkling vistas of the
 crystal forests to the haunted bogs of the cursed lands, down to the depths of its lush caves, icy caverns, and beyond—
 Everness is now a crown jewel of the Asuna experience. With a few personal touches and careful integration into Asuna's
 fantastic fabric of biomes, Everness graces every corner of the world.
@@ -80,12 +80,12 @@ to stay up-to-date with Asuna's development.
 {% include figure.html src="/static/blog/2023_MayJune/blockcolor.png" caption="Blocks and colors" %}
 
 In an effort to preserve an old, interesting game project, the [mt-historical](https://github.com/mt-historical)
-organization has added [BlockColor by MrChiantos](https://content.minetest.net/packages/mt-mods/blockcolor/) to
+organization has added [BlockColor by MrChiantos](https://content.luanti.org/packages/mt-mods/blockcolor/) to
 ContentDB. The name says it all: It's a world of blocks painted with a soothing palette of colors.
 
 ### Mineclone 2
 
-The latest [Mineclone](https://content.minetest.net/packages/Wuzzy/mineclone2/) update, ["The Very Nice
+The latest [Mineclone](https://content.luanti.org/packages/Wuzzy/mineclone2/) update, ["The Very Nice
 Release"](https://git.minetest.land/MineClone2/MineClone2/releases/tag/0.84.0), went live last month. It is mostly a
 quality-of-life update with bugfixes, performance, texture, and audio improvements.
 
@@ -97,7 +97,7 @@ quality-of-life update with bugfixes, performance, texture, and audio improvemen
 
 {% include figure.html src="/static/blog/2023_MayJune/mailmod.png" caption="New Mail Features" %}
 
-Many servers rely on the [Mail mod](https://content.minetest.net/packages/mt-mods/mail/) for in-game communication.
+Many servers rely on the [Mail mod](https://content.luanti.org/packages/mt-mods/mail/) for in-game communication.
 Since the beginning of the year, the [mt-mods](https://github.com/mt-mods) organization has developed many new features
 and fixed several bugs using feedback from the [YourLand server](https://your-land.de/). They also added translations
 for at least 6 new languages. The biggest new addition is the "Sent Messages" folder, which required a complete rewrite
@@ -116,19 +116,19 @@ Contributors to the mail mod include Athozus, S-S-X, BuckarooBanzay, fluxionary,
 {% include figure.html src="/static/blog/2023_MayJune/plushies.png" caption="Fluffy creatures and characters" %}
 
 You may have noticed a recent rise in plushie content for Minetest. Three new mods— [Fumo
-Plushies](https://content.minetest.net/packages/aSliceOfCake/fumoplushies/), and [Amogus
-Plushie](https://content.minetest.net/packages/aSliceOfCake/amogus/) by
-[aSliceOfCake](https://content.minetest.net/users/aSliceOfCake/), and
-[Plushies](https://content.minetest.net/packages/Atlante/cat_plushies/) by
-[Atlante](https://content.minetest.net/users/Atlante/)— introduce a plethora of fluffy decorations.
+Plushies](https://content.luanti.org/packages/aSliceOfCake/fumoplushies/), and [Amogus
+Plushie](https://content.luanti.org/packages/aSliceOfCake/amogus/) by
+[aSliceOfCake](https://content.luanti.org/users/aSliceOfCake/), and
+[Plushies](https://content.luanti.org/packages/Atlante/cat_plushies/) by
+[Atlante](https://content.luanti.org/users/Atlante/)— introduce a plethora of fluffy decorations.
 
 ### Nodecore Cat Realm
 
 {% include figure.html src="/static/blog/2023_MayJune/nc_catrealm.jpg" caption="Cat Kingdom" %}
 
-The [Nodecore CatRealm modpack](https://content.minetest.net/packages/Warr1024/catrealm/) by
-[Warr1024](https://content.minetest.net/users/Warr1024/) and Mearson introduces a new
-[NodeCore](https://content.minetest.net/packages/Warr1024/nodecore/) dimension inhabited by cats. Craft a portal, pay a
+The [Nodecore CatRealm modpack](https://content.luanti.org/packages/Warr1024/catrealm/) by
+[Warr1024](https://content.luanti.org/users/Warr1024/) and Mearson introduces a new
+[NodeCore](https://content.luanti.org/packages/Warr1024/nodecore/) dimension inhabited by cats. Craft a portal, pay a
 cat a prill, and step out onto the mythical cat sky islands. Find new ores and craft powerful tools. Conquer the land of
 the cats!
 
@@ -136,8 +136,8 @@ the cats!
 
 {% include figure.html src="/static/blog/2023_MayJune/weather.png" caption="Rain in the Arena" %}
 
-Development on [Arena_lib](https://content.minetest.net/packages/Zughy/arena_lib/) by
-[Zughy](https://content.minetest.net/users/Zughy/) is nearing completion. With the latest update [(6.3.0,
+Development on [Arena_lib](https://content.luanti.org/packages/Zughy/arena_lib/) by
+[Zughy](https://content.luanti.org/users/Zughy/) is nearing completion. With the latest update [(6.3.0,
 "Piove?")](https://gitlab.com/zughy-friends-minetest/arena_lib/-/releases/6.3.0) you can choose from rain, snow, or dust
 weather effects to stylize your minigame arena. You can also change the saturation of the screen inside a minigame to
 mute colors or create a black-and-white effect.
@@ -166,7 +166,7 @@ visited the nearby [Lascaux cave](https://en.wikipedia.org/wiki/Lascaux), which 
 paintings. Thomate, Riwad and Lemente were present to discuss the future possibilities of Minetest as an educational
 ecosystem and how to facilitate its adoption by educators. The next day, they organised a 10-minute workshop (one of 14
 other workshops) in which students decorated a Minetest cave with recreations of paintings they saw previously using the
-[ggraffiti](https://content.minetest.net/packages/grorp/ggraffiti/) and
+[ggraffiti](https://content.luanti.org/packages/grorp/ggraffiti/) and
 [cave_painting](https://github.com/Lemente/cave_painting) mods.
 
 ## Server News

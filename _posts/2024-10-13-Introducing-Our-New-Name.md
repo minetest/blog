@@ -10,7 +10,7 @@ contributors:
   - FreshReplicant
 image: /static/blog/New_Name/cover.jpg
 image_credit: Zughy
-forum_topic: https://forum.minetest.net/viewtopic.php?t=31048
+forum_topic: https://forum.luanti.org/viewtopic.php?t=31048
 ---
 
 "Is this a Minecraft clone? Is it like Minecraft Alpha?" If you've been a member of our community for some time, you are
@@ -62,7 +62,7 @@ With the new name, a few changes will be made in the engine and community. Obvio
 hubs will adopt the Luanti name in some form. You'll be able to find the website at luanti.org and repositories at
 [github.com/luanti-org](https://github.com/luanti-org) (many old links will redirect). Our social platforms will change
 similarly. The logo will be staying, and you'll probably still hear "Minetest" occasionally in reference to [Minetest
-Game](https://content.minetest.net/packages/Minetest/minetest_game/) which will remain a testament to the project's
+Game](https://content.luanti.org/packages/Minetest/minetest_game/) which will remain a testament to the project's
 roots. Otherwise, Luanti now represents the future of the platform.
 
 For developers, the engine won't actually change much. For those who aren't aware, `core` is actually the real Lua

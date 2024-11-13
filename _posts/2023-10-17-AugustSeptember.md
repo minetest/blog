@@ -4,9 +4,9 @@ title: "August and September in Minetest (15)"
 contributors:
   - 56independent
   - erlehmann
-  - GreenXenith
   - Niklp
   - rubenwardy
+  - MisterE
 authors:
   - GreenXenith
 description: >

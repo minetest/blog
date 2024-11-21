@@ -4,10 +4,8 @@ title: "Introducing Our New Name"
 description: >-
   After more than a year of public and internal discussions, we're ready to
   announce our new name!
-contributors:
-  - Zughy
-  - GreenXenith
-  - FreshReplicant
+authors: [Zughy, GreenXenith]
+contributors: [FreshReplicant, grorp]
 image: /static/blog/New_Name/cover.jpg
 image_credit: Zughy
 forum_topic: https://forum.luanti.org/viewtopic.php?t=31048

@@ -3,6 +3,11 @@ layout: post
 title:  "March - This Month in Luanti (02)"
 description: >
   Mapgen Work, Main Menu Redesign
+authors: [JohnDoe] # Required, must be an array
+editors: [Bobby, Sue] # Optional, must be an array
+contributors: # Optional, must be an array
+  - BillPreston6
+  - TedTheodore9
 image: /static/blog/2022_March/Sunrays.png
 tags:
   - last_month

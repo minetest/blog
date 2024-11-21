@@ -12,19 +12,45 @@ layout: default
 	<div class="hero-body">
 		<div class="container">
 			<h1 class="title">{{ page.title }}</h1>
-			{% if page.author %}
-				<p class="subtitle">
-					By
-					{% assign author = site.data.authors[page.author] %}
-					{% if author %}
-						<a href="{{ author.url }}">
-							{{ page.author }}
-						</a>
-					{% else %}
-						{{ page.author }}
-					{% endif %}
-				</p>
-			{% endif %}
+			<p class="subtitle">
+				{% if page.authors %}
+					Written by
+					{%- for author in page.authors %}
+						{%- if forloop.last == true %}
+							{%- if forloop.index > 2 %},{%- endif %}
+							{% if forloop.index > 1 %}and{% endif %}
+						{%- else %}
+							{%- if forloop.index > 1 %},{%- endif %}
+						{%- endif %}
+
+						{% assign data = site.data.authors[author] %}
+						{%- if data %}
+							<a href="{{ data.url }}">{{- author}}</a>
+						{%- else %}
+							{{- author}}
+						{%- endif %}
+					{%- endfor %}
+				{% endif %}
+
+				{% if page.editors %}
+					<br>Edited by
+					{%- for editor in page.editors %}
+						{%- if forloop.last == true %}
+							{%- if forloop.index > 2 %},{%- endif %}
+							{% if forloop.index > 1 %}and{% endif %}
+						{%- else %}
+							{%- if forloop.index > 1 %},{%- endif %}
+						{%- endif %}
+
+						{% assign data = site.data.authors[editor] %}
+						{%- if data %}
+							<a href="{{ data.url }}">{{- editor}}</a>
+						{%- else %}
+							{{- editor}}
+						{%- endif %}
+					{%- endfor %}
+				{% endif %}
+			</p>
 			<p>
 				{% for tagname in page.tags %}
 					{% assign tag = site.my_tags | where: "slug", tagname | first %}
@@ -88,9 +114,26 @@ layout: default
 			<p class="mt-6 has-text-grey">
 				{% if page.contributors %}
 					Thanks to our post contributors this month:
-					{{ page.contributors | join: ", " }}.
+					{%- for contributor in page.contributors %}
+						{%- if forloop.last == true %}
+							{%- if forloop.index > 2 %},{%- endif %}
+							{% if forloop.index > 1 %}and{% endif %}
+						{%- else %}
+							{%- if forloop.index > 1 %},{%- endif %}
+						{%- endif %}
+
+						{% assign data = site.data.authors[contributor] %}
+						{%- if data %}
+							<a href="{{ data.url }}">{{- contributor}}</a>
+						{%- else %}
+							{{- contributor}}
+						{%- endif %}
+					{%- endfor %}
 				{% endif %}
 				{% if page.image_credit %}
+					{% if page.contributors  %}
+						<br>
+					{% endif %}
 					Cover image by {{ page.image_credit }}.
 				{% endif %}
 			</p>

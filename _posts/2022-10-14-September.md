@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "September - This Month in Minetest (08)"
+authors: [MisterE]
+editors: [rubenwardy]
 contributors:
-  - MisterE
-  - rubenwardy
   - Peppermint Patty
   - Warr1024
   - BuckarooBanzai

@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "May, June, and July in Minetest (14)"
+authors: [MisterE]
+editors: [GreenXenith]
 contributors:
-  - MisterE
   - Rubenwardy
   - EmptyStar
   - Athozus
   - Lemente
   - CodeScratcher
-  - GreenXenith
 description: >
   Work on the 5.8 release continues with some exciting new engine improvements, a classic game makes its way to
   ContentDB, and the use of Minetest in education was explored.

@@ -113,7 +113,7 @@ instead of the .land domain).
 {% include figure.html src="/static/blog/2022_September/mesejet_train.png"
     caption="MeseJets in a Railyard" %}
 
-[Xenon](ttps://content.luanti.org/users/xenonca/) released the first version
+[Xenon](https://content.luanti.org/users/xenonca/) released the first version
 of another Advanced Trains expansion pack. So far it only includes the MeseJet,
 a bullet train that has color-coded line numbers displayed on its side.
 
